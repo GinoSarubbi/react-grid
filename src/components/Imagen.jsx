@@ -6,11 +6,7 @@ const Imagen = () => {
   const altura = alturas[indexRnd];
   return (
     <img
-      src={urlImg}
-      alt="texto"
-      width="220px"
-      height="190px"
-    />
+      src={urlImg} alt="texto" width="220px" height={altura}/>
   );
 };
 
